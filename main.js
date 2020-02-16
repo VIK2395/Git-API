@@ -17,7 +17,6 @@ async function getUsers() {
         divForUsers.innerHTML = ""
         userName.value = ""
         result.items.forEach(user => showUserCard(user))
-        console.log("VS code check")
     }
 }
 
