@@ -10,7 +10,7 @@ const divForUsers = document.getElementById("divForUsers")
 
 async function getUsers() {
     const userName = document.querySelector("#qString")
-    if (userName !== "") {
+    if (userName.value !== "") {
         const url = `https://api.github.com/search/users?per_page=50&q=${userName.value}`
         const response = await fetch(url)
         const result = await response.json()
