@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(194, 224, 224);
+}
+
+.card {
+    margin: 20px auto
+}
+
+/* #divForUsers .card:first-child {
+    position: relative;
+    top: 70px;
+   } */
+
+#divForUsers {
+    position: relative;
+    top: 60px;
+   }
