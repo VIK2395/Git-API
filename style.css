@@ -14,4 +14,18 @@ body {
 #divForUsers {
     position: relative;
     top: 60px;
-   }
+}
+
+@media screen and (max-width: 574px) {
+	#divForUsers {
+    position: relative;
+    top: 108px;
+	}	
+}
+
+@media screen and (max-width: 498px) {
+	#divForUsers {
+    position: relative;
+    top: 148px;
+	}	
+}
